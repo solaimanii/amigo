@@ -1,0 +1,1165 @@
+
+
+/* :::: RESPONSIVE DESIGN DEVICE SIZES :::: */
+
+/* for Responsive Target the ROW Code (disply:grid) */
+
+/* Small devices (landscape phones,upto 576px and below) */
+@media (width <=576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    /* :::PARENT CONTAINER Code Ends here::: */
+
+
+/* :::HEADER Code Starts here::: */
+
+
+/* Navbar code */
+
+.navBar {
+    /* background-color: red; */
+    padding: 3rem 0;
+}
+
+.navBarContainer {
+    /* background-color: blue; */
+    margin:0 3rem;
+}
+
+.navBarBody {
+    /* background-color: gray; */
+    padding: 0 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* .navBarBlock {
+    background-color: green;
+} */
+
+/* .navBarBox { 
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .navLogo {
+    background-color: yellow;
+} */
+
+.navLogo img {
+    /* background-color: goldenrod; */
+    aspect-ratio: 3\1;
+    width: 64%;
+}
+
+.navLinks {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.navLinks li {
+    /* background-color: yellowgreen; */
+    list-style: none;
+}
+
+.navLinks a {
+    /* background-color: #660600; */
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #092d56;
+    padding: 1rem 2rem;
+
+}
+
+.navButton {
+    /* background-color: aquamarine; */
+    margin-left: 17rem;
+}
+
+.navButton button {
+    background-color: #3d85c6;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-style: normal;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+/* Navbar code */
+
+
+/* Hero Section code */
+.heroSection {
+    /* background-color: blue; */
+    padding: 0;
+}
+
+.heroSectionContainer {
+    /* background-color: aqua; */
+    margin: 0 3rem;
+}
+
+.heroBody {
+    /* background-color: green; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.heroContent {
+    /* background-color: yellow; */
+    padding: 6rem 2rem;
+}
+
+.heroContent h1 {
+    /* background-color: red; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    font-size: 4.8rem;
+    font-style: normal;
+}
+
+span {
+    color: #3d85c6;
+    text-shadow: 0 1rem 2rem #3d85c6;
+}
+
+.heroContent p {
+    /* background-color: violet; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-style: normal;
+    margin-top: 2rem;
+}
+
+.heroContent strong {
+    /* background: brown; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin-top: 6rem;
+    display: block;
+}
+
+.heroContent a {
+    /* background-color: aqua; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin: 0 0 0 .2rem;
+}
+
+.heroImage {
+    /* background-color: yellowgreen; */
+    display: none;
+}
+
+.heroImage img {
+    /* background-color: burlywood; */
+    aspect-ratio: 3/1;
+    margin-top: 6rem;
+}
+
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+
+
+/* :::MAIN Code Starts here::: */
+
+
+/* whatWeDo code */
+
+.whatWeDo {
+    /* background-color: yellow; */
+    padding: 3rem 0;
+}
+
+.whatWeDoContainer {
+    /* background-color: red; */
+    margin: 0 3rem;
+    padding: 0 1.2rem;
+}
+
+/* .whatWeDoHead {
+    background-color: blue;
+} */
+
+/* .whatWeDoBlock {
+    background-color: violet;
+} */
+
+.whatWeDoBlock h2 {
+    /* background-color: green; */
+    text-align: center;
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.whatWeDoBlock p {
+    /* background-color: gray; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.whatWeDoBody {
+    /* background-color: aqua; */
+    /* padding: 3rem 0; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.visionImage {
+    /* background-color: teal; */
+    padding: 0 1.2rem;
+}
+
+.visionImage img {
+    /* background-color: sienna; */
+    aspect-ratio: 1/1;
+    height: 98%;
+    object-fit: contain;
+}
+
+.visionContent {
+    /* background-color: red; */
+    padding: 0 1.2rem;
+
+}
+
+/* .visionContentBox1 {
+    background-color: violet;
+} */
+
+.visionContentBox1 h3 {
+    /* background-color: green; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.visionContentBox1 p {
+    /* background-color: aqua; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.visionContentBox2 {
+    /* background-color: blue; */
+    padding-left: 1.2rem;
+    margin: 2rem 0;
+}
+
+.visionContentBox2 li {
+    /* background-color: aqua; */
+    list-style: none;
+    padding: 1.2rem 0 .6rem;
+}
+
+.visionContentBox2 a {
+    /* background-color: cadetblue; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+
+/* whatWeDo code */
+
+
+
+
+/* ourServices code */
+
+/* .ourServices {
+    background-color: blue;
+} */
+
+.ourServicesContainer {
+    /* background-color: red; */
+    margin: 0 3rem;
+    padding: 0 1.2rem;
+}
+
+/* .ourServicesHead {
+    background-color: green;
+} */
+
+/* .ourServicesTitle {
+    background-color: yellow;
+} */
+
+.ourServicesTitle h3 {
+    /* background-color: violet; */
+    text-align: center;
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.ourServicesBody {
+    /* background-color: red; */
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ourServicesCard1 {
+    background-color: #F8FAFF;
+    margin: 1rem;
+    border: .2rem solid  blue;
+    padding: .5rem 1rem 2rem;
+}
+
+.ourServicesCard1 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard1 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard1 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.ourServicesCard2 {
+    background-color: #F8FAFF;
+    padding: 0.5rem 1rem 2rem;
+    border: .2rem solid  blue;
+    margin: 1rem;
+}
+
+.ourServicesCard2 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard2 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard2 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.ourServicesCard3 {
+    background-color: #F8FAFF;
+    padding: 0.5rem 1rem 2rem;
+    border: .2rem solid  blue;
+    margin: 1rem;
+}
+
+.ourServicesCard3 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard3 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard3 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.ourServicesCard4 {
+    background-color: #F8FAFF;
+    padding: 0.5rem 1rem 2rem;
+    border: .2rem solid  blue;
+    margin: 1rem;
+}
+
+.ourServicesCard4 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard4 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard4 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.ourServicesCard5 {
+    background-color: #F8FAFF;
+    padding: 0.5rem 1rem 2rem;
+    border: .2rem solid  blue;
+    margin: 1rem;
+}
+
+.ourServicesCard5 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard5 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard5 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+.ourServicesCard6 {
+    background-color: #F8FAFF;
+    padding: 0.5rem 1rem 2rem;
+    border: .2rem solid  blue;
+    margin: 1rem;
+}
+
+.ourServicesCard6 i {
+    /* background-color: green; */
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourServicesCard6 h4{
+    /* background-color: violet; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-bottom: 0.8rem;
+}
+
+.ourServicesCard6 p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 1.5rem;
+}
+
+/* ourServices code */
+
+
+
+
+/* ourPartners code */
+
+.ourPartners {
+    /* background-color: yellow; */
+    padding: 3rem 0;
+}
+
+.ourPartnersContainer {
+    /* background-color: violet; */
+    margin: 0 3rem;
+    padding: 0 1.2rem;
+}
+
+/* .ourPartnersHead {
+    background-color: green;
+} */
+
+.ourPartnersTitle {
+    /* background-color: blue; */
+    margin-bottom: 1rem;
+}
+
+.ourPartnersTitle h3 {
+    /* background-color: red; */
+    text-align: center;
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.ourPartnersBody {
+    /* background-color: grey; */
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ourPartnersImagesBlock1 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox1 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox1 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox1 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock2 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox2 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox2 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox2 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock3 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox3 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox3 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox3 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock4 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox4 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox4 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox4 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock5 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox5 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox5 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox5 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock6 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox6 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox6 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox6 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock7 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox7 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox7 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox7 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock8 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox8 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox8 img {
+    /* background-color: aqua; */
+    width: 95%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox8 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock9 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox9 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox9 img {
+    /* background-color: aqua; */
+    width: 90%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox9 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.ourPartnersImagesBlock10 {
+    /* background-color: gold; */
+    padding: 0 1.2rem;
+}
+
+.ourPartnersBox10 {
+    /* background-color: brown; */
+    border: .2rem solid #4f5e645d;
+    padding: 2.2rem 1.8rem;
+    margin: 0 0 1.5rem;
+}
+
+.ourPartnersBox10 img {
+    /* background-color: aqua; */
+    width: 90%;
+    aspect-ratio: 1/1;
+    margin: 0 0 1rem;
+}
+
+.ourPartnersBox10 p {
+    /* background-color: yellowgreen; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+/* ourPartners code */
+
+
+
+
+
+/* customersSay code */
+
+
+.customersSay {
+    /* background-color: blue; */
+    padding: 0 0 3rem 0;
+}
+
+.customersSayContainer {
+    /* background-color: aquamarine; */
+    margin: 0 6rem;
+}
+
+/* .customersSayHead {
+    background-color: turquoise;
+} */
+
+.customersSayTitle {
+    /* background-color: yellow; */
+    padding: 2rem 0;
+}
+
+.customersSayTitle h3 {
+    /* background-color: red; */
+    color: #111111;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.customersSayBody {
+    background-color: #f8f8f8;
+
+}
+
+/* .customersSayContent {
+    background-color: gold;
+} */
+
+.customersSayBox1 {
+    /* background-color: yellowgreen; */
+    padding: 1.8rem 0;
+}
+
+.customersSayBox1 img {
+    /* background-color: blue; */
+    padding: 0 .5rem ;
+}
+
+/* .customersSayBox2 {
+    background-color: violet;
+} */
+
+.customersSayBox2 h4 {
+    /* background-color: aqua; */
+    color: #111111;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    font-style: normal;
+}
+
+.customersSayBox2 p {
+    /* background-color: yellow; */
+    color: #111111;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.customersSayBox2 i {
+    /* background-color: green; */
+    font-size: 1.7rem;
+}
+
+.customersSayBox2 span {
+    /* background-color: red; */
+    color: #111111;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+    margin: .5rem;
+}
+/* customersSay code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+
+
+/* :::FOOTER Code Starts here::: */
+
+/* Contact code */
+
+.webLinks {
+    /* background-color: red; */
+    padding: 0 0 3rem;
+}
+
+.webLinksContainer {
+    /* background-color: blue; */
+    margin: 0 3rem;
+}
+
+.webLinksBody {
+    /* background: violet; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* .webLinksContent {
+    background-color: green;
+} */
+
+.webLinksBox1Logo {
+    /* background-color: yellow; */
+    margin-top: 7rem;
+    padding: 0 1.2rem;
+}
+
+.webLinksBox1Logo img {
+    /* background-color: grey; */
+    aspect-ratio: 3\2;
+    width: 82%;
+}
+
+.webLinksBox1Logo p {
+    /* background-color: yellowgreen; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin: 2rem 0;
+}
+
+.webLinksBox1Icons {
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+
+.webLinksBox1Icons img {
+    /* background-color: aqua; */
+    padding: 0 1rem;
+}
+
+.webLinksBox2 {
+    /* background-color: green; */
+    padding: 0 1.2rem;
+    margin-right: 5rem;
+}
+
+/* .webLinksBox2Title {
+    background-color: violet;
+} */
+
+.webLinksBox2Title h5 {
+    /* background-color: blue; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin: 0 0 2rem;
+}
+
+/* .webLinksBox2Content {
+    background-color: yellow;
+} */
+
+.webLinksBox2Content li {
+    /* background-color: RED; */
+    list-style: none;
+    margin: 0 0 0.4rem;
+}
+
+.webLinksBox2Content a {
+    /* background-color: gray; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.webLinksBox3 {
+    /* background-color: green; */
+    padding: 0 1.2rem;
+}
+
+/* .webLinksBox3Title {
+    background-color: violet;
+} */
+
+.webLinksBox3Title h5 {
+    /* background-color: blue; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin: 2rem 0;
+}
+
+/* .webLinksBox3Content {
+    background-color: yellow;
+} */
+
+.webLinksBox3Content li {
+    /* background-color: RED; */
+    list-style: none;
+    margin: 0 0 0.4rem;
+}
+
+.webLinksBox3Content a {
+    /* background-color: gray; */
+    color: #05264e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/* Contact code */
+
+hr {
+    background-color: #4f5e64;
+    /* color: #4f5e64; */
+    width: 100%;
+    height: .1rem;
+    /* padding: 2rem; */
+}
+
+/* copyrights Icons code */
+
+.copyrights {
+    /* background-color: yellow; */
+    padding: 0 0 3rem;
+}
+
+.copyrightsContainer {
+    /* background-color: gray; */
+    margin: 0 3rem;
+}
+
+/* .copyrightsTitle {
+    background-color: green;
+} */
+
+/* .copyrightsBody {
+    background-color: aqua;
+} */
+
+.copyrightsTitle p {
+    /* background-color: yellow; */
+    color: #4f5e64;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 3rem 0 2rem;
+}
+
+/* copyrights Icons code */
+
+/* :::FOOTER Code Ends here::: */
+}
